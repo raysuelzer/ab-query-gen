@@ -1,0 +1,3 @@
+# REPLACE WITH SCHEMA
+# To generate schema use rails console
+# File.write('ab_schema.graphql', InteractBackendSchema.to_definition )
