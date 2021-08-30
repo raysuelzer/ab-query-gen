@@ -19,8 +19,8 @@ const query = generateQuery({
   field: schema
       .getQueryType()
       .getFields().getEntity,
-  depthLimit: 8,
-  dedupe: true
+  depthLimit: 8
 })
 
+// Write the file someplace
 require("fs").writeFile("getEntity.gql", query , (err) => {})
